@@ -24,3 +24,5 @@ Scikit-learn
 Pandas
 Future Work
 I plan to continue exploring NLP techniques and tools to build more advanced projects such as language translation models, chatbots with voice recognition, and sentiment analysis of audio and video content. I also plan to experiment with more advanced deep learning models such as BERT and GPT-3 for NLP tasks.
+###  Contributing
+Contributions to this repository are welcome. Please feel free to submit a pull request or open an issue if you have any suggestions or improvements.

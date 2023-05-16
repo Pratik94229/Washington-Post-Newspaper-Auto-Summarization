@@ -17,12 +17,12 @@ This repository contains my Natural Language Processing (NLP) projects that invo
 *  I have trained the chatbot on a dataset of restaurant-related queries and responses and used RASA NLU and Core components for the training. The chatbot can be deployed on a website or a messaging platform.
 
 ### Technologies Used
-Python
-RASA Framework
-Natural Language Toolkit (NLTK)
-Scikit-learn
-Pandas
-Future Work
+* Python
+* RASA Framework
+* Natural Language Toolkit (NLTK)
+* Scikit-learn
+* Pandas
+### Future Work
 I plan to continue exploring NLP techniques and tools to build more advanced projects such as language translation models, chatbots with voice recognition, and sentiment analysis of audio and video content. I also plan to experiment with more advanced deep learning models such as BERT and GPT-3 for NLP tasks.
 ###  Contributing
 Contributions to this repository are welcome. Please feel free to submit a pull request or open an issue if you have any suggestions or improvements.

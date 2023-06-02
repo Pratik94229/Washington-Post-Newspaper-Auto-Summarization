@@ -1,28 +1,43 @@
-# NLP Repository
-This repository contains my Natural Language Processing (NLP) projects that involve text analysis, topic modeling, sentiment analysis, and building chatbots.
+# Washington Post Newspaper Auto Summarization
 
-## Projects
-### 1. Newspaper Topic Modelling and Auto Summarization
-* In this project, I have scraped news articles from a website and performed topic modeling and auto-summarization on them. 
-* The main objective was to classify the articles based on their content to help viewers make decisions about whether the article is relevant to their interests or not. 
-* I used various techniques such as TF-IDF, Latent Dirichlet Allocation (LDA), and TextRank algorithms to extract key topics and summaries from the articles.
+This project focuses on automatically generating summaries for news articles from The Washington Post. The goal is to extract key information and provide concise summaries that capture the main points of the articles, making it easier for users to quickly grasp the content and decide whether they want to read the full article.
 
-### 2. Twitter Sentiment Analysis
-* In this project, I have analyzed tweets from a Twitter dataset to rate how positive or negative a topic is and hence the overall sentiment about the topic.
-*  I used Natural Language Processing techniques such as tokenization, stop-word removal, stemming, and sentiment analysis to extract and analyze the tweets. 
-*  I used various machine learning classifiers such as Logistic Regression, Random Forest, XG Boost, and SVM for the sentiment classification.
+## Project Overview
 
-### 3. Chatbot for Restaurant using RASA
-* In this project, I have built a chatbot for a restaurant using RASA framework. The chatbot can handle customer queries related to restaurant information such as menu, location, timings, etc.
-*  I have trained the chatbot on a dataset of restaurant-related queries and responses and used RASA NLU and Core components for the training. The chatbot can be deployed on a website or a messaging platform.
+The project utilizes natural language processing (NLP) techniques to analyze news articles from The Washington Post. It involves the following components:
 
-### Technologies Used
-* Python
-* RASA Framework
-* Natural Language Toolkit (NLTK)
-* Scikit-learn
-* Pandas
-### Future Work
-I plan to continue exploring NLP techniques and tools to build more advanced projects such as language translation models, chatbots with voice recognition, and sentiment analysis of audio and video content. I also plan to experiment with more advanced deep learning models such as BERT and GPT-3 for NLP tasks.
-###  Contributing
-Contributions to this repository are welcome. Please feel free to submit a pull request or open an issue if you have any suggestions or improvements.
+1. Data Collection: The project collects news articles from The Washington Post by utilizing beautifulsoup library.
+
+2. Text Preprocessing: The collected articles undergo text preprocessing to clean the text, remove irrelevant content (e.g., advertisements or comments), and tokenize the text into sentences or paragraphs.
+
+3. Auto Summarization: The auto summarization component focuses on generating concise summaries of the news articles. It utilizes techniques such as extractive summarization, which selects important sentences or phrases from the original text, or abstractive summarization, which generates summaries by understanding the content.
+
+
+## Key Features
+
+- Collects news articles from The Washington Post using web scraping.
+- Preprocesses the articles by cleaning the text, removing irrelevant content, and tokenizing the text.
+- Implements extractive or abstractive summarization techniques to generate concise summaries.
+
+## Technologies Used
+
+- Python
+- Natural Language Processing (NLP) libraries (NLTK, SpaCy)
+- Beautiful Soup (for web scraping)
+
+## Dataset
+
+The project requires a dataset of Washington Post news articles to perform auto summarization. The articles can be collected using web scraping techniques.
+
+## Future Plans
+
+- Improve the accuracy and coherence of the auto summarization process by exploring advanced techniques like pre-trained language models (e.g., BERT, GPT) or reinforcement learning-based approaches.
+- Incorporate user feedback and preferences to customize the summarization process based on individual needs.
+- Extend the project to include other news sources and develop a generalized news summarization system.
+
+## References
+
+http://glowingpython.blogspot.in/2014/09/text-summarization-with-nltk.html.Thanks to TheGlowingPython, the good soul that wrote this excellent article!
+
+This project aims to facilitate quick information retrieval and understanding for users by automatically generating concise summaries of news articles from The Washington Post. By leveraging NLP techniques, users can efficiently consume news content and make informed decisions about which articles to read further.
+
